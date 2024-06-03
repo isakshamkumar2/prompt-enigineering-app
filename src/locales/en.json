@@ -1,0 +1,14 @@
+{
+  "Create New Prompt Workflow": "Create New Prompt Workflow",
+  "Zero Shot Prompting": "Zero Shot Prompting",
+  "Use AI without any context, the most common approach.": "Use AI without any context, the most common approach.",
+  "Few Shot Prompting": "Few Shot Prompting",
+  "Give AI some examples for before asking your question.": "Give AI some examples for before asking your question.",
+  "Chain Of Thought": "Chain Of Thought",
+  "Give AI thought processes for 1 or more examples before asking your question.": "Give AI thought processes for 1 or more examples before asking your question.",
+  "Automatic Chain Of Thought": "Automatic Chain Of Thought",
+  "Automate giving AI thought processes for 1 or more examples before asking your question.": "Automate giving AI thought processes for 1 or more examples before asking your question.",
+  "Tree Of Thought": "Tree Of Thought",
+  "Give AI branched logic examples before asking your question.": "Give AI branched logic examples before asking your question.",
+  "Directional Stimulus": "Directional Stimulus"
+}

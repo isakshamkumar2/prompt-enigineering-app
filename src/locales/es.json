@@ -1,0 +1,14 @@
+{
+  "Create New Prompt Workflow": "Crear Nuevo Flujo de Trabajo de Instrucciones",
+  "Zero Shot Prompting": "Instrucciones de Tiro Cero",
+  "Use AI without any context, the most common approach.": "Usar IA sin ningún contexto, el enfoque más común.",
+  "Few Shot Prompting": "Instrucciones de Pocos Tiros",
+  "Give AI some examples for before asking your question.": "Dé algunos ejemplos a la IA antes de hacer su pregunta.",
+  "Chain Of Thought": "Cadena de Pensamiento",
+  "Give AI thought processes for 1 or more examples before asking your question.": "Dé procesos de pensamiento a la IA para 1 o más ejemplos antes de hacer su pregunta.",
+  "Automatic Chain Of Thought": "Cadena de Pensamiento Automática",
+  "Automate giving AI thought processes for 1 or more examples before asking your question.": "Automatice dar procesos de pensamiento a la IA para 1 o más ejemplos antes de hacer su pregunta.",
+  "Tree Of Thought": "Árbol de Pensamiento",
+  "Give AI branched logic examples before asking your question.": "Dé ejemplos de lógica ramificada a la IA antes de hacer su pregunta.",
+  "Directional Stimulus": "Estímulo Direccional"
+}
