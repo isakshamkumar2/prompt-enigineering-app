@@ -1,6 +1,6 @@
 .heading {
   color: white;
-  font-size: 28px;
+  font-size: 1.75rem;
   margin: 2rem 0;
   font-weight: 400;
   text-align: center;
@@ -8,7 +8,7 @@
 
 .workFlowOuterContainer {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(3, minmax(18.75rem, 1fr));
   padding: 0 5rem;
   row-gap: 2rem;
   column-gap: 4rem;
@@ -17,21 +17,20 @@
 .workFlowInnerContainer {
   display: flex;
   justify-content: space-between;
-  gap: 1.8rem;
-  /* padding: 0 0.9rem; */
+  gap: 1.125rem;
 }
 .workFlowTextContainer {
   display: flex;
   flex-direction: column;
 }
 .workFlowTextContainerTitle {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: 400;
   margin: 0;
   color: white;
 }
 .workFlowTextContainerDescription {
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #b0b0b0;
   line-height: 1.6rem;
 }
@@ -43,7 +42,7 @@
 }
 @media screen and (max-width: 1024px) {
   .workFlowOuterContainer {
-    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, minmax(15.625rem, 1fr));
     padding: 0 6rem;
     row-gap: 3rem;
     column-gap: 5rem;
@@ -66,14 +65,14 @@
   .heading {
     text-align: left;
     padding: 0 4.7rem;
-    font-size: 44px;
+    font-size: 2.75rem;
     margin: 5rem 0;
   }
   .workFlowTextContainerTitle {
-    font-size: 33px;
+    font-size: 2.0625rem;
   }
   .workFlowTextContainerDescription {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 500;
   }
 }

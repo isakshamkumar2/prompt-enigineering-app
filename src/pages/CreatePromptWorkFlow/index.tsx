@@ -18,11 +18,15 @@ const CreatePromptWorkFlow = () => {
       <div className={Styles.workFlowOuterContainer}>
         {PromptWorkflow.map((workFlow, index) => (
           <Card
+            data-testid="workflow-card"
             key={index}
             width={CardWidth.Default}
             height={CardHeight.FitContent}
           >
-            <div className={Styles.workFlowInnerContainer}>
+            <div
+              data-testid="workflow-card"
+              className={Styles.workFlowInnerContainer}
+            >
               <div className={Styles.workFlowTextContainer}>
                 <h2 className={Styles.workFlowTextContainerTitle}>
                   {t(workFlow.title)}
