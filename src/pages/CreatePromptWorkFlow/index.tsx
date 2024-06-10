@@ -1,20 +1,26 @@
 import React from 'react';
-import Styles from './CreatePromptWorkFlow.module.css';
+import Styles from './CreatePromptWorkFlow.module.scss';
 import {
   Card,
   CardHeight,
   CardWidth,
   ProgressMeter,
+  ThemeType,
 } from '@genflowly/react-assets/dist';
 import PromptWorkflow from '../../constants/data';
 import { useTranslation } from 'react-i18next';
-
+import { TEXTS } from '../../config';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../store/store';
 const CreatePromptWorkFlow = () => {
   const { t } = useTranslation();
+  const mode = useSelector((state: RootState) => state.theme.mode);
 
   return (
     <>
-      <h2 className={Styles.heading}>{t('Create New Prompt Workflow')}</h2>
+      <h2 className={Styles.heading}>
+        {t(TEXTS.CREATE_PROMPT_WORKFLOW_TITLE)}
+      </h2>
       <div className={Styles.workFlowOuterContainer}>
         {PromptWorkflow.map((workFlow, index) => (
           <Card
@@ -22,6 +28,7 @@ const CreatePromptWorkFlow = () => {
             key={index}
             width={CardWidth.Default}
             height={CardHeight.FitContent}
+            theme={mode === 'dark' ? ThemeType.DARK : ThemeType.LIGHT}
           >
             <div
               data-testid="workflow-card"

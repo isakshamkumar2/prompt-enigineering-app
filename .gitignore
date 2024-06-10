@@ -12,3 +12,7 @@
 
 # misc
 .DS_Store
+#tests
+/coverage
+
+.npmrc

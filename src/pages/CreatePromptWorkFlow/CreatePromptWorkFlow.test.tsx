@@ -2,7 +2,6 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import CreatePromptWorkFlow from './index';
 import PromptWorkflow from '../../constants/data';
-// import { CardWidth} from '@genflowly/react-assets/dist'
 describe('CreatePromptWorkFlow Component', () => {
   test('renders component without crashing', () => {
     render(<CreatePromptWorkFlow />);
