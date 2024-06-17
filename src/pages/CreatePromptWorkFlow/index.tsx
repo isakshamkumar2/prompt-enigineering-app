@@ -4,18 +4,20 @@ import {
   Card,
   CardHeight,
   CardWidth,
-  ProgressMeter,
+  // ProgressMeter,
   ThemeType,
 } from '@genflowly/react-assets/dist';
+import { ProgressMeter } from '@isakshamkumar2/ui-lib-demo-2';
 import PromptWorkflow from '../../constants/data';
 import { useTranslation } from 'react-i18next';
 import { TEXTS } from '../../config';
 import { useSelector } from 'react-redux';
 import { RootState } from '../../store/store';
+// import useWindowDimensions from '../../hooks/useWindowWidth';
 const CreatePromptWorkFlow = () => {
   const { t } = useTranslation();
   const mode = useSelector((state: RootState) => state.theme.mode);
-
+  // const {width} = useWindowDimensions()
   return (
     <>
       <h2 className={Styles.heading}>
@@ -44,6 +46,7 @@ const CreatePromptWorkFlow = () => {
               </div>
               <div className={Styles.workFlowInnerContainerProgress}>
                 <ProgressMeter
+                  // size={width!<=1024?'large':'default'}
                   progress={workFlow.progressMeterOneDetails.progress}
                   progressSubtitles={
                     workFlow.progressMeterOneDetails
@@ -51,6 +54,7 @@ const CreatePromptWorkFlow = () => {
                   }
                 />
                 <ProgressMeter
+                  // size={width!<=1024?'large':'default'}
                   isNegative={workFlow.progressMeterTwoDetails.isNegative}
                   progress={workFlow.progressMeterTwoDetails.progress}
                   progressSubtitles={

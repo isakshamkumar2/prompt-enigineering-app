@@ -28,7 +28,7 @@ const PromptWorkflow = [
     },
   },
   {
-    title: 'Chain Of Thought Prompting',
+    title: 'Chain Of Thought',
     description:
       'Give AI thought processes for 1 or more examples before asking your question.',
     progressMeterOneDetails: {
@@ -43,7 +43,7 @@ const PromptWorkflow = [
     },
   },
   {
-    title: 'Automatic Chain Of Thought Prompting',
+    title: 'Automatic Chain Of Thought',
     description:
       'Automate giving AI thought processes for 1 or more examples before asking your question.',
     progressMeterOneDetails: {
@@ -58,7 +58,7 @@ const PromptWorkflow = [
     },
   },
   {
-    title: 'Tree Of Thought Prompting',
+    title: 'Tree Of Thought',
     description: 'Give AI branched logic examples before asking your question.',
     progressMeterOneDetails: {
       progressMeterOneSubtitles: ['None', 'Result Improvement'],
@@ -72,7 +72,7 @@ const PromptWorkflow = [
     },
   },
   {
-    title: 'Directional Stimulus Prompting',
+    title: 'Directional Stimulus',
     description:
       'Give AI thought processes for 1 or more examples before asking your question.',
     progressMeterOneDetails: {

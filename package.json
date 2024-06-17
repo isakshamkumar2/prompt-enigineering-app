@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@genflowly/react-assets": "^0.1.101",
+    "@isakshamkumar2/ui-lib-demo-2": "^0.0.53",
     "@reduxjs/toolkit": "^2.2.5",
     "i18next-browser-languagedetector": "^7.2.0",
     "react-i18next": "^14.1.0",
